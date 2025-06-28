@@ -29,7 +29,7 @@ python synthesis/create_coarse_images.py --save_dir /path/to/save_dir --cell_dir
 For the generated **coarse images**, we apply style transfer using **Cut** and **CycleGAN**.  
 Model training and inference follow the official implementation:  
 👉 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
-
+👉 [Contrastive Unpaired Translation (CUT)](https://github.com/taesungp/contrastive-unpaired-translation)
 ### 5.VOC to YOLO(Convert a VOC-format dataset to YOLO format, including images and annotation files.)
 **The VOC dataset is expected to have the following directory structure:**
 ```
